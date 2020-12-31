@@ -92,8 +92,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{B0F4
 		rebuild_release.ps1 = rebuild_release.ps1
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coverage_analyser", "coverage_analyser\coverage_analyser.csproj", "{06E78A3D-AAA0-4CD9-8F23-B5BBBBE6F14F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup Files", "Setup Files", "{E3536C51-3B98-4D50-8973-A72D03042FCF}"
 	ProjectSection(SolutionItems) = preProject
 		documentation\Setup Files\chromium.patch = documentation\Setup Files\chromium.patch
@@ -109,14 +107,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mathematica", "mathematica\
 		{5C482C18-BBAE-484D-A211-A25C86370061} = {5C482C18-BBAE-484D-A211-A25C86370061}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "stacktrace_decoder", "stacktrace_decoder\stacktrace_decoder.csproj", "{0AC374A7-36CD-40FC-B831-112389B6D9ED}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "numerics", "numerics\numerics.vcxproj", "{9E0AE155-47B1-4090-AF00-038AF87A876D}"
 	ProjectSection(ProjectDependencies) = postProject
 		{5C482C18-BBAE-484D-A211-A25C86370061} = {5C482C18-BBAE-484D-A211-A25C86370061}
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "benchmark_automation", "benchmark_automation\benchmark_automation.csproj", "{5498EE37-1A80-4DA8-8D81-01892C4C8EEB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EF5AB3D-F63B-48B9-80A0-B789A830413C}"
 EndProject
@@ -134,8 +128,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tools", "tools\tools.vcxpro
 	ProjectSection(ProjectDependencies) = postProject
 		{5C482C18-BBAE-484D-A211-A25C86370061} = {5C482C18-BBAE-484D-A211-A25C86370061}
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "parallel_test_runner", "parallel_test_runner\parallel_test_runner.csproj", "{A0E67E1B-E5A6-45A0-B42C-4330A6643CD7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{FA689AE8-C152-4005-978E-1B701ABF9E1C}"
 	ProjectSection(SolutionItems) = preProject
@@ -241,14 +233,6 @@ Global
 		{7E7CC89A-FC65-409C-A975-9C3A6A50786B}.Release_LLVM|x64.Build.0 = Release_LLVM|x64
 		{7E7CC89A-FC65-409C-A975-9C3A6A50786B}.Release|x64.ActiveCfg = Release|x64
 		{7E7CC89A-FC65-409C-A975-9C3A6A50786B}.Release|x64.Build.0 = Release|x64
-		{06E78A3D-AAA0-4CD9-8F23-B5BBBBE6F14F}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{06E78A3D-AAA0-4CD9-8F23-B5BBBBE6F14F}.Debug|x64.Build.0 = Debug|Any CPU
-		{06E78A3D-AAA0-4CD9-8F23-B5BBBBE6F14F}.Release KSP 1.7.3|x64.ActiveCfg = Release|Any CPU
-		{06E78A3D-AAA0-4CD9-8F23-B5BBBBE6F14F}.Release KSP 1.7.3|x64.Build.0 = Release|Any CPU
-		{06E78A3D-AAA0-4CD9-8F23-B5BBBBE6F14F}.Release_LLVM|x64.ActiveCfg = Release|Any CPU
-		{06E78A3D-AAA0-4CD9-8F23-B5BBBBE6F14F}.Release_LLVM|x64.Build.0 = Release|Any CPU
-		{06E78A3D-AAA0-4CD9-8F23-B5BBBBE6F14F}.Release|x64.ActiveCfg = Release|Any CPU
-		{06E78A3D-AAA0-4CD9-8F23-B5BBBBE6F14F}.Release|x64.Build.0 = Release|Any CPU
 		{5C482C18-BBAE-484D-A211-A25C86370061}.Debug|x64.ActiveCfg = Debug|x64
 		{5C482C18-BBAE-484D-A211-A25C86370061}.Debug|x64.Build.0 = Debug|x64
 		{5C482C18-BBAE-484D-A211-A25C86370061}.Release KSP 1.7.3|x64.ActiveCfg = Release|x64
@@ -265,14 +249,6 @@ Global
 		{83A31DA7-3F62-464D-9F6B-09CCE07A865A}.Release_LLVM|x64.Build.0 = Release_LLVM|x64
 		{83A31DA7-3F62-464D-9F6B-09CCE07A865A}.Release|x64.ActiveCfg = Release|x64
 		{83A31DA7-3F62-464D-9F6B-09CCE07A865A}.Release|x64.Build.0 = Release|x64
-		{0AC374A7-36CD-40FC-B831-112389B6D9ED}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{0AC374A7-36CD-40FC-B831-112389B6D9ED}.Debug|x64.Build.0 = Debug|Any CPU
-		{0AC374A7-36CD-40FC-B831-112389B6D9ED}.Release KSP 1.7.3|x64.ActiveCfg = Release|Any CPU
-		{0AC374A7-36CD-40FC-B831-112389B6D9ED}.Release KSP 1.7.3|x64.Build.0 = Release|Any CPU
-		{0AC374A7-36CD-40FC-B831-112389B6D9ED}.Release_LLVM|x64.ActiveCfg = Release|Any CPU
-		{0AC374A7-36CD-40FC-B831-112389B6D9ED}.Release_LLVM|x64.Build.0 = Release|Any CPU
-		{0AC374A7-36CD-40FC-B831-112389B6D9ED}.Release|x64.ActiveCfg = Release|Any CPU
-		{0AC374A7-36CD-40FC-B831-112389B6D9ED}.Release|x64.Build.0 = Release|Any CPU
 		{9E0AE155-47B1-4090-AF00-038AF87A876D}.Debug|x64.ActiveCfg = Debug|x64
 		{9E0AE155-47B1-4090-AF00-038AF87A876D}.Debug|x64.Build.0 = Debug|x64
 		{9E0AE155-47B1-4090-AF00-038AF87A876D}.Release KSP 1.7.3|x64.ActiveCfg = Release|x64
@@ -281,14 +257,6 @@ Global
 		{9E0AE155-47B1-4090-AF00-038AF87A876D}.Release_LLVM|x64.Build.0 = Release_LLVM|x64
 		{9E0AE155-47B1-4090-AF00-038AF87A876D}.Release|x64.ActiveCfg = Release|x64
 		{9E0AE155-47B1-4090-AF00-038AF87A876D}.Release|x64.Build.0 = Release|x64
-		{5498EE37-1A80-4DA8-8D81-01892C4C8EEB}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{5498EE37-1A80-4DA8-8D81-01892C4C8EEB}.Debug|x64.Build.0 = Debug|Any CPU
-		{5498EE37-1A80-4DA8-8D81-01892C4C8EEB}.Release KSP 1.7.3|x64.ActiveCfg = Release|Any CPU
-		{5498EE37-1A80-4DA8-8D81-01892C4C8EEB}.Release KSP 1.7.3|x64.Build.0 = Release|Any CPU
-		{5498EE37-1A80-4DA8-8D81-01892C4C8EEB}.Release_LLVM|x64.ActiveCfg = Release|Any CPU
-		{5498EE37-1A80-4DA8-8D81-01892C4C8EEB}.Release_LLVM|x64.Build.0 = Release|Any CPU
-		{5498EE37-1A80-4DA8-8D81-01892C4C8EEB}.Release|x64.ActiveCfg = Release|Any CPU
-		{5498EE37-1A80-4DA8-8D81-01892C4C8EEB}.Release|x64.Build.0 = Release|Any CPU
 		{5EEA5210-0FA9-4B44-8466-C40B22D24E8E}.Debug|x64.ActiveCfg = Debug|x64
 		{5EEA5210-0FA9-4B44-8466-C40B22D24E8E}.Debug|x64.Build.0 = Debug|x64
 		{5EEA5210-0FA9-4B44-8466-C40B22D24E8E}.Release KSP 1.7.3|x64.ActiveCfg = Release|x64
@@ -313,23 +281,9 @@ Global
 		{873680B3-2406-4A30-9EE7-569E9B9DA661}.Release_LLVM|x64.Build.0 = Release_LLVM|x64
 		{873680B3-2406-4A30-9EE7-569E9B9DA661}.Release|x64.ActiveCfg = Release|x64
 		{873680B3-2406-4A30-9EE7-569E9B9DA661}.Release|x64.Build.0 = Release|x64
-		{A0E67E1B-E5A6-45A0-B42C-4330A6643CD7}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{A0E67E1B-E5A6-45A0-B42C-4330A6643CD7}.Debug|x64.Build.0 = Debug|Any CPU
-		{A0E67E1B-E5A6-45A0-B42C-4330A6643CD7}.Release KSP 1.7.3|x64.ActiveCfg = Release|Any CPU
-		{A0E67E1B-E5A6-45A0-B42C-4330A6643CD7}.Release KSP 1.7.3|x64.Build.0 = Release|Any CPU
-		{A0E67E1B-E5A6-45A0-B42C-4330A6643CD7}.Release_LLVM|x64.ActiveCfg = Release|Any CPU
-		{A0E67E1B-E5A6-45A0-B42C-4330A6643CD7}.Release_LLVM|x64.Build.0 = Release|Any CPU
-		{A0E67E1B-E5A6-45A0-B42C-4330A6643CD7}.Release|x64.ActiveCfg = Release|Any CPU
-		{A0E67E1B-E5A6-45A0-B42C-4330A6643CD7}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{06E78A3D-AAA0-4CD9-8F23-B5BBBBE6F14F} = {B0F47E49-0EDF-4D58-AB27-F99CCCE4253A}
-		{0AC374A7-36CD-40FC-B831-112389B6D9ED} = {B0F47E49-0EDF-4D58-AB27-F99CCCE4253A}
-		{5498EE37-1A80-4DA8-8D81-01892C4C8EEB} = {B0F47E49-0EDF-4D58-AB27-F99CCCE4253A}
-		{A0E67E1B-E5A6-45A0-B42C-4330A6643CD7} = {B0F47E49-0EDF-4D58-AB27-F99CCCE4253A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {332981CB-A6C7-4BD0-9EE0-8E8C6FB4E01A}

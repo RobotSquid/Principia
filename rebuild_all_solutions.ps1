@@ -60,7 +60,7 @@ function build_solutions($solutions) {
   foreach ($configuration in "Debug", "Release") {
     foreach ($platform in "x64") {
       foreach ($solution in $solutions) {
-        &$msbuild /t:"Clean;Build" /m /property:Configuration=$configuration /property:Platform=$platform $solution
+        &$msbuild /t:"Clean;Build" /m:4 /property:Configuration=$configuration /property:Platform=$platform $solution
         if (!$?) {
           exit 1
         }
